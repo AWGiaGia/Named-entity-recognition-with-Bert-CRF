@@ -1,0 +1,13 @@
+MAX_LEN: 512
+batch_size: 16
+device: cuda:3
+idx2tag_path: ./config/idx2tag.json
+name: dgb
+num_workers: 4
+pretrained_bert: ./weight/bert_hub/sbert-base-chinese-nli
+pretrained_ckpt: ./weight/train1/ep80.pth
+seed: 1407
+tag2idx_path: ./config/tag2idx.json
+test_path: ./NER_DATASET/demo.test.char
+tokenizer_path: ./weight/bert_hub/sbert-base-chinese-nli
+types_of_tags: 19

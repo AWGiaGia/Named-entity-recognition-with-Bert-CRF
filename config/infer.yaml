@@ -1,0 +1,11 @@
+name: dbg
+seed: 1407
+MAX_LEN: 512
+tokenizer_path: ./weight/bert_hub/sbert-base-chinese-nli
+tag2idx_path: ./config/tag2idx.json
+idx2tag_path: ./config/idx2tag.json
+device: cuda:3
+pretrained_ckpt: ./weight/train1/ep80.pth
+types_of_tags: 19
+pretrained_bert: ./weight/bert_hub/sbert-base-chinese-nli
+autoCRF: True

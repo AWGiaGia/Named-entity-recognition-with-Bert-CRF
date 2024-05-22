@@ -1,0 +1,1 @@
+download from: https://gitee.com/modelee/sbert-base-chinese-nli

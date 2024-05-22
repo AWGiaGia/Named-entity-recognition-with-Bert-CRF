@@ -1,0 +1,14 @@
+name: main1
+seed: 1407
+test_path: ./dataset/test.char
+MAX_LEN: 512
+tokenizer_path: ./weight/bert_hub/sbert-base-chinese-nli
+tag2idx_path: ./config/tag2idx.json
+idx2tag_path: ./config/idx2tag.json
+batch_size: 4
+device: cuda:1
+pretrained_ckpt: ./weight/main2/ep18.pth
+types_of_tags: 19
+num_workers: 4
+pretrained_bert: ./weight/bert_hub/sbert-base-chinese-nli
+autoCRF: True
